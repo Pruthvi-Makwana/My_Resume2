@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeclarationFragment">
+
+    <TextView
+        android:id="@+id/textview53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Skills"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#D7D9DA"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/tablelayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview53">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+             <TextView
+        android:id="@+id/textview54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview53"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Programming Language :">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview54"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#474444"
+        android:layout_marginLeft="10dp"
+        android:text="C,SQL,Java,Python,PHP">
+    </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textview56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview55"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Web Development Tools :">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview56"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#474444"
+        android:text="HTML,CSS">
+    </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textview49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tablelayout2"
+        android:text="Area Of Interast"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#D7D9DA"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/textview50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview49"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Management">
+    </TextView>
+    <TextView
+        android:id="@+id/textview51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview50"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Leadership">
+    </TextView>
+    <TextView
+        android:id="@+id/textview52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview51"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        android:text="Teamwork">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/textview58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textview51"
+        android:text="Declaration"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#D7D9DA"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview58"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#474444"
+        android:textStyle="bold"
+        android:text="I here by declare that the above mentioned information is true to the best of my knowledge.">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textview59"
+        android:text="Thank You"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textview60"
+        android:text="Pruthvi Makwana"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview61"
+        android:layout_marginTop="20dp"
+        android:text="ALL ABOUT ME" />
+</RelativeLayout>

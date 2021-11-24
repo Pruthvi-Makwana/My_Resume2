@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationFragment">
+
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#B8A7A7"
+            >
+
+            <TextView
+                android:id="@+id/textview19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/textview20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School / \nCollege"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/textview21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board/\nUniversity"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/textview22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passing\nYear"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/textview23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M.C.A"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Atmiya University,\nRajkot"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Atmiya \nUniversity"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Running"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="-"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textview29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.C.A"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="H And H.B.Kotak \nInstitute of \nScience,\nRajkot"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="saurastra \nUniversity"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2020"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="65.95%"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textview34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H.S.C"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Mu.Girls High \nSchool,\n Kodinar"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="GSEB"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2017"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="63.66%"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textview39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H.S.C"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Secondary School,\nChhachhar"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="GSEB"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2015"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textview43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="58.83%"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textview44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tablelayout"
+        android:text="Project Under Taken"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#D7D9DA"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview44"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#474444"
+        android:text="Project (2019-2020)\n Decora Furniture.">
+    </TextView>
+    <TextView
+        android:id="@+id/textview46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview45"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#474444"
+        android:text="Superviser : Prof. Malay B.Dave">
+    </TextView>
+    <TextView
+        android:id="@+id/textview47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview46"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Declaration :">
+    </TextView>
+    <TextView
+        android:id="@+id/textview48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview47"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#474444"
+        android:text="To Computerize the functions in the furniture like creating database,billing,etc. And to make process easy.">
+    </TextView>
+
+
+
+</RelativeLayout>
